@@ -96,7 +96,13 @@ body {
 .u-center-text {
   text-align: center; }
 
-.u-center-text {
+.u-margin-bottom-small {
+  margin-bottom: 2rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-big {
   margin-bottom: 8rem; }
 
 .btn:link, .btn:visited {
