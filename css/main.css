@@ -182,7 +182,7 @@ body {
   position: relative;
   height: 50rem; }
   .card__side {
-    color: #fff;
+    color: black;
     font-size: 2rem;
     height: 50rem;
     transition: all .8s ease;
@@ -190,12 +190,15 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    backface-visibility: hidden; }
-    .card__side__front {
+    backface-visibility: hidden;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+    .card__side--front {
       background-color: #fff; }
-    .card__side__back {
-      background-color: green;
+    .card__side--back {
       transform: rotateY(180deg); }
+      .card__side--back-1 {
+        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
   .card:hover .card__side--front {
     transform: rotateY(180deg); }
   .card:hover .card__side--back {
