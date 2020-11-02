@@ -95,7 +95,7 @@
                 padding: 1rem;
 
                 &:not(:last-child) {
-                    border-bottom: 1px solid #eee;
+                    border-bottom: 1px solid $color-gray-light-2;
                 }
             }
         }
