@@ -1,11 +1,18 @@
 .navigation {
-    // &__checkbox {
+    &__checkbox {
+        display: block;
+    }
 
-    // }
-
-    // &__button {
-
-    // }
+    &__button {
+        background-color: $color-white;
+        height: 7rem;
+        width: 7rem;
+        position: fixed;
+        top: 6rem;
+        right: 6rem;
+        border-radius: 50%;
+        z-index: 2000;
+    }
 
     &__background {
         height: 6rem;
@@ -14,22 +21,31 @@
         position: fixed;
         top: 6.5rem;
         right: 6.5rem;
+        z-index: 1000;
         background-image: radial-gradient($color-primary-light, $color-primary-dark);
     }
 
-    // &__nav {
+    &__nav {
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1500;
+    }
 
-    // }
+    &__list {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
-    // &__list {
-
-    // }
-
-    // &__tiem {
+    &__tiem {
         
-    // }
+    }
 
-    // &__link {
+    &__link {
         
-    // }
+    }
 }
