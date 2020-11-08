@@ -1,7 +1,6 @@
 .navigation {
     &__checkbox {
-        display: block;
-        visibility: hidden;
+        display: none;
     }
 
     &__button {
@@ -99,6 +98,7 @@
     // ICON
     &__icon {
         position: relative;
+        margin-top: 3.5rem;
 
         &,
         &::before,
@@ -111,7 +111,7 @@
 
         &::before,
         &::after {
-            content: '';
+            content: "";
             position: absolute;
             left: 0;
             transition: all .2s;
@@ -127,5 +127,19 @@
 
     &__button:hover &__icon::after {
         top: 1rem;
+    }
+
+    &__checkbox:checked + &__button &__icon {
+        background-color: transparent;
+    }
+
+    &__checkbox:checked + &__button &__icon::before {
+       top: 0;
+       transform: rotate(135deg);
+    }
+
+    &__checkbox:checked + &__button &__icon:after {
+        top: 0;
+        transform: rotate(-135deg);
     }
 }
