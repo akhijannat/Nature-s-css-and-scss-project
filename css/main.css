@@ -543,7 +543,8 @@ body {
     text-align: center; }
 
 .navigation__checkbox {
-  display: block; }
+  display: block;
+  visibility: hidden; }
 
 .navigation__button {
   background-color: #fff;

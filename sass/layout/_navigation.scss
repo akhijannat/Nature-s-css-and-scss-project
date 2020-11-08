@@ -1,6 +1,7 @@
 .navigation {
     &__checkbox {
         display: block;
+        visibility: hidden;
     }
 
     &__button {
