@@ -24,6 +24,7 @@
         right: 6.5rem;
         z-index: 1000;
         background-image: radial-gradient($color-primary-light, $color-primary-dark);
+        transition: transform .8s;
         
         // transform: scale(80);
     }
@@ -37,6 +38,7 @@
 
         opacity: 0;
         width: 0;
+        transition: all .8s;
     }
 
     &__list {
@@ -83,5 +85,10 @@
 
     &__checkbox:checked ~ &__background {
         transform: scale(80);
+    }
+
+    &__checkbox:checked ~ &__nav {
+        opacity: 1;
+        width: 100%;
     }
 }
