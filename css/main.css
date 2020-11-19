@@ -5,6 +5,13 @@
 [1200 - 1800px] is where our normal styles apply
 1800 + :        Big desktop
 */
+/*
+$breakpoint argument choices;
+- phone
+- tab-port
+- tab-land
+- big-desktop
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -42,6 +49,9 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 600px) {
+    html {
+      font-size: 50%; } }
 
 body {
   box-sizing: border-box; }
