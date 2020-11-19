@@ -54,13 +54,13 @@ html {
       font-size: 50%; } }
   @media (max-width: 900px) {
     html {
-      font-size: 50%; } }
+      font-size: 60%; } }
   @media (max-width: 1200px) {
     html {
-      font-size: 50%; } }
+      font-size: 70%; } }
   @media (max-width: 1800px) {
     html {
-      font-size: 50%; } }
+      font-size: 80%; } }
 
 body {
   box-sizing: border-box; }

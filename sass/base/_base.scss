@@ -15,15 +15,15 @@ html {
   }
 
   @include respond(tab-port) {
-    font-size: 50%;
+    font-size: 60%;
   }
 
   @include respond(tab-land) {
-    font-size: 50%;
+    font-size: 70%;
   }
 
   @include respond(big-desktop) {
-    font-size: 50%;
+    font-size: 80%;
   }
 
 }
