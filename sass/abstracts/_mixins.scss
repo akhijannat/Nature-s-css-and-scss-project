@@ -34,3 +34,8 @@ $breakpoint argument choices;
 - big-desktop
 */
 
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+        
+    }
+}
