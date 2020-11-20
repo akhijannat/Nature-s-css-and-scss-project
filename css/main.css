@@ -54,13 +54,7 @@ html {
   font-size: 62.5%; }
   @media (max-width: 75em) {
     html {
-      font-size: 50%; } }
-  @media (max-width: 56.25em) {
-    html {
-      font-size: 50%; } }
-  @media (max-width: 112.5em) {
-    html {
-      font-size: 75%; } }
+      font-size: 56.25%; } }
 
 body {
   box-sizing: border-box; }
