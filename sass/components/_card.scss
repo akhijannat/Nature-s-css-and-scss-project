@@ -150,11 +150,12 @@
     // ADD Media query in card
     @include respond(tab-port) {
         height: auto;
+        border-radius: 3px;
+        background-color: $color-white;
 
         &__side {
             height: auto;
             position: relative;
-            border-radius: 3px;
 
             &--back {
                 transform: rotateY(0);
