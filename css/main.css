@@ -946,3 +946,6 @@ body {
     @media (max-width: 75em) {
       .book__form {
         width: 65%; } }
+    @media (max-width: 56.25em) {
+      .book__form {
+        width: 100%; } }
