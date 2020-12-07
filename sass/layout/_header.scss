@@ -9,7 +9,7 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
-    @media screen {
+    @media (min-resolution: 192dpi) {
       
     }
 
